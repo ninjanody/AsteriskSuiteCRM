@@ -1,0 +1,77 @@
+.call_popup {
+    transition: 0.3s;
+    position: fixed;
+    z-index: 1000;
+    width: 200px;
+    height: 40px;
+    right: 0.4em;
+    bottom: 190px;
+}
+#timer_call {
+    margin-left: 56px;
+}
+.type_call {
+    color: #000000;
+    padding-left: 27px;
+}
+.call_container {
+    background: #ffffff;
+    height: 170px;
+}
+.div_call_top {
+    width: 100%;
+    height: 25px;
+    background: #3c8dbc;
+    display: inline-flex;
+}
+
+.call_hr {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.hover_call {
+    font-style: italic;
+    color: white;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+.delete_card {
+    font-weight: bold;
+    color: white;
+}
+.hide_card {
+    padding-right: 4px;
+    padding-left: 24px;
+    color: white;
+}
+.fixed_block {
+    position: fixed;
+    z-index: 1000;
+    right: 0.4em;
+    bottom: 80px;
+}
+#call_number {
+    padding-left: 50px;
+}
+#call_lead_info {
+    padding-left: 5px;
+}
+.create_memo {
+    margin-left: 17px;
+    background: #3c8dbc;
+    color: white;
+}
+.redirect_div {
+    margin-left: 112px;
+}
+.buttons_call {
+    display: inline-flex;
+}
+.redirect_img {
+    width: 12px;
+    height: 12px;
+}
+.redirect_call {
+    background: #3c8dbc;
+    color: white;
+}
