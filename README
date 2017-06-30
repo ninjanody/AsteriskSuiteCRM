@@ -1,0 +1,10 @@
+1. Create sip_c field in module users in studio;
+2. Add custom logic hook to /custom/modules/logic_hooks.php($hook_array['after_ui_frame'][] = Array(1, 'Load Websocket For Asterisk', 'custom/modules/Nami/SocketHook.php', 'SocketHook', 'load_ws');)
+3. Add directory Nami to /custom/modules/
+4. Edit credential configs in SocketListener.js
+5. Add custom entry point (
+$entry_point_registry['add_new_call'] = array(
+    'file' => 'custom/add_new_call.php',
+    'auth' => false
+);)
+
